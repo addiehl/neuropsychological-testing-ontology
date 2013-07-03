@@ -1071,7 +1071,13 @@ Alexander P. Cox</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010018"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1082,14 +1088,20 @@ Alexander P. Cox</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0011004"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0011007"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0011004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1101,19 +1113,7 @@ Alexander P. Cox</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010017"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1124,19 +1124,19 @@ Alexander P. Cox</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010015"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0011007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>mini mental state examination</obo:IAO_0000118>
         <obo:IAO_0000118>Folstein assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE</obo:IAO_0000118>
+        <obo:IAO_0000115>A cognitive functioning assay consisting of a standardized sequence of brief cognitive tasks emphasizing orientation, memory, attention, executive function, and language that generates a scalar score from 0 to 30 that is used as a global measurement of cognitive functioning and to screen for cognitive impairment.
+
+*** REVISE ***</obo:IAO_0000115>
         <obo:IAO_0000118>Folstein exam</obo:IAO_0000118>
         <obo:IAO_0000118>mini-mental state examination</obo:IAO_0000118>
         <obo:IAO_0000118>Folstein MMSE assay</obo:IAO_0000118>
-        <obo:IAO_0000115>An assay consisting of a standardized sequence of brief cognitive tasks emphasizing orientation, memory, attention, and language that generates a score from 0 to 30 that is used as a global measurement of cognitive functioning and to screen for cognitive impairment in the evaluant.
-
-*** REVISE ***</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state exam</obo:IAO_0000118>
         <rdfs:comment>*** TO DO ***
@@ -1182,6 +1182,12 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010025"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0012001"/>
             </owl:Restriction>
@@ -1194,18 +1200,12 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="&obo;IAO_0000109"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
-                                <owl:someValuesFrom rdf:resource="&obo;NPT_0013001"/>
+                                <owl:onProperty rdf:resource="&obo;NPT_0016001"/>
+                                <owl:someValuesFrom rdf:resource="&obo;NPT_0012026"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An assay that measures one or more aspects of an evaluant&apos;s cognitive functioning.</obo:IAO_0000115>
@@ -1222,31 +1222,25 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010012"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010011"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010033"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0010008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1264,31 +1258,37 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0010005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010013"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0010004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
@@ -1305,14 +1305,14 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010078"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012004"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>Folstein mini mental state examination date assay</obo:IAO_0000118>
@@ -1330,14 +1330,14 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012005"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010078"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>mini mental state examination year assay</obo:IAO_0000118>
@@ -1355,14 +1355,14 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012006"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010078"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>MMSE month orientation assay</obo:IAO_0000118>
@@ -1531,14 +1531,14 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010079"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012013"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
@@ -1581,12 +1581,6 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010036"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0010041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1603,6 +1597,12 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                     </owl:Restriction>
                 </owl:unionOf>
             </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010036"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1678,14 +1678,8 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010023"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010020"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1702,14 +1696,8 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010031"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1722,6 +1710,18 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0010022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>mini mental state examination language assay</obo:IAO_0000118>
@@ -1739,14 +1739,14 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012020"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010069"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>mini mental state examination naming assay</obo:IAO_0000118>
@@ -1789,14 +1789,14 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010075"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012022"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010075"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>Folstein mini mental state examination three stage command assay</obo:IAO_0000118>
@@ -1843,14 +1843,14 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012024"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010077"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>Folstein mini mental state examination writing assay</obo:IAO_0000118>
@@ -1868,14 +1868,14 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012025"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010032"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010032"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>MMSE copying language assay</obo:IAO_0000118>
@@ -3408,19 +3408,13 @@ From: http://www.cognitivetestingservices.com/test-neuropsychological-battery.ph
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020153"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020152"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020151"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020149"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020150"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3432,13 +3426,19 @@ From: http://www.cognitivetestingservices.com/test-neuropsychological-battery.ph
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020152"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020153"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020150"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020149"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020151"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -3477,6 +3477,12 @@ From: http://www.cognitivetestingservices.com/test-neuropsychological-battery.ph
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;NPT_0016001"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0010002"/>
             </owl:Restriction>
@@ -3494,12 +3500,6 @@ From: http://www.cognitivetestingservices.com/test-neuropsychological-battery.ph
                         </owl:oneOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;NPT_0016001"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A categorical measurement datum used to record the results of a cognitive functioning examination as either normal cognitive functioning, mildly impaired cognitive functioning, moderately impaired cognitive functioning, or severely impaired cognitive functioning.</obo:IAO_0000115>
@@ -4591,6 +4591,12 @@ ADNI GO/2-
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0012014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4603,7 +4609,7 @@ ADNI GO/2-
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012019"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4615,13 +4621,7 @@ ADNI GO/2-
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012015"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
@@ -4638,31 +4638,19 @@ ADNI GO/2-
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012006"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0012013"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012007"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4680,7 +4668,25 @@ ADNI GO/2-
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0012009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4692,13 +4698,7 @@ ADNI GO/2-
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012005"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012008"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
@@ -4888,6 +4888,12 @@ ADNI GO/2-
         <rdfs:label>MMSE attention and calculation assay plan</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NPT_0012001"/>
         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000059"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0011030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -4900,12 +4906,6 @@ ADNI GO/2-
                     </owl:Restriction>
                 </owl:unionOf>
             </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000059"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0011030"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
     </owl:Class>
@@ -4967,6 +4967,30 @@ ADNI GO/2-
         <rdfs:subClassOf rdf:resource="&obo;NPT_0012001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0012023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000059"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0011034"/>
             </owl:Restriction>
@@ -4980,31 +5004,7 @@ ADNI GO/2-
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012023"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0012020"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012024"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012022"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0012025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
@@ -6137,7 +6137,7 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020032"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6149,7 +6149,13 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6161,7 +6167,7 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020045"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6179,19 +6185,13 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020021"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020032"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020148"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116>Defintion copied from MMSE. </obo:IAO_0000116>
@@ -6267,12 +6267,6 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020009"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6280,6 +6274,12 @@ It is worth noting that the above discussion is driven by considerations regardi
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -6347,7 +6347,7 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020011"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6365,7 +6365,7 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020013"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6505,13 +6505,13 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020020"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020019"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -6629,7 +6629,25 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6642,24 +6660,6 @@ It is worth noting that the above discussion is driven by considerations regardi
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020024"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020023"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -6705,7 +6705,7 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010069"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6717,13 +6717,13 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020029"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020031"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -6789,19 +6789,13 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020036"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6813,7 +6807,13 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020035"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -6879,13 +6879,13 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020043"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020042"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020043"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6919,13 +6919,7 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020049"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020050"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6937,13 +6931,19 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020047"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -7009,12 +7009,6 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010031"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7022,6 +7016,12 @@ It is worth noting that the above discussion is driven by considerations regardi
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -7047,13 +7047,13 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020054"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -7126,12 +7126,6 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020146"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020072"/>
             </owl:Restriction>
@@ -7139,25 +7133,7 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020066"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020068"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020065"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7181,13 +7157,37 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020067"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -7206,6 +7206,24 @@ It is worth noting that the above discussion is driven by considerations regardi
     <owl:Class rdf:about="&obo;NPT_0020059">
         <rdfs:label>ADNI ADAS commands assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
@@ -7228,24 +7246,6 @@ It is worth noting that the above discussion is driven by considerations regardi
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020061"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020102"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -7340,6 +7340,12 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0010075"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7347,12 +7353,6 @@ It is worth noting that the above discussion is driven by considerations regardi
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
@@ -7370,6 +7370,12 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0010045"/>
             </owl:Restriction>
@@ -7378,12 +7384,6 @@ It is worth noting that the above discussion is driven by considerations regardi
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0010059"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020173"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116>One trial, ten words, ability to perform, total score, and actual words recorded. </obo:IAO_0000116>
@@ -7406,14 +7406,14 @@ It is worth noting that the above discussion is driven by considerations regardi
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020172"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010081"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020172"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7455,14 +7455,8 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010056"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010075"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7473,8 +7467,14 @@ It is worth noting that the above discussion is driven by considerations regardi
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020167"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010075"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116>Seventeen possible yes/no responses, A naming and B is fingers, all same field. Ability recorded. </obo:IAO_0000116>
@@ -7492,6 +7492,12 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020163"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7499,12 +7505,6 @@ It is worth noting that the above discussion is driven by considerations regardi
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020164"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020162"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -7528,14 +7528,14 @@ It is worth noting that the above discussion is driven by considerations regardi
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020161"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010075"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010075"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020161"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -7588,14 +7588,14 @@ It is worth noting that the above discussion is driven by considerations regardi
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010041"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020101"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020101"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7638,14 +7638,14 @@ A data transformation.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010041"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020174"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020174"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -7663,14 +7663,14 @@ A data transformation.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020174"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010041"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020174"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -7686,14 +7686,14 @@ A data transformation.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;NPT_0010002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020174"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0010041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0010041"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020174"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -8286,30 +8286,6 @@ AVTOTB: 0-15</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020123"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020155"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020120"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020117"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020121"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8322,7 +8298,31 @@ AVTOTB: 0-15</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020120"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020155"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8349,13 +8349,13 @@ AVTOTB: 0-15</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020169"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020109"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020169"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -8427,13 +8427,13 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020169"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020112"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020169"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
@@ -8502,13 +8502,13 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020114"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020169"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020169"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020114"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
@@ -8527,13 +8527,13 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020126"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020127"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020127"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020126"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
@@ -8641,13 +8641,13 @@ DSPANBLTH: 2-7</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020132"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020133"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020132"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8793,12 +8793,6 @@ CATVGPERS: 0-77</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020141"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020140"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8806,6 +8800,12 @@ CATVGPERS: 0-77</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;NPT_0020139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020141"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -8875,13 +8875,13 @@ TRAAERROM or TRABERROM:</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020141"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020140"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;NPT_0020140"/>
+                <owl:someValuesFrom rdf:resource="&obo;NPT_0020141"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An assay which is a realization of the plan which concretizes the trail making test design. A evaluant is asked to draw a line between consecutive numbers and scored on total time to complete, numbers of comissions and omissions. </obo:IAO_0000115>
