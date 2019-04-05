@@ -786,228 +786,6 @@ TO DO: specify this definition further</obo:IAO_0000115>
     
 
 
-    <!-- http://org.semanticweb.owlapi/error#Error1 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error1"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error10 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error10"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error11 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error11"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error12 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error12"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error13 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error13"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error14 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error14"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error15 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error15"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error16 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error16"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error17 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error17"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error18 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error18"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error19 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error19"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error2 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error2"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error20 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error20"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error21 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error21"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error22 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error22"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error23 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error23"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error24 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error24"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error25 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error25"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error26 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error26"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error27 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error27"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error28 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error28"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error29 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error29"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error3 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error3"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error30 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error30"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error31 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error31"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error32 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error32"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error33 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error33"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error34 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error34"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error35 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error35"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error36 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error36"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error37 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error37"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error4 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error4"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error5 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error5"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error6 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error6"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error7 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error7"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error8 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error8"/>
-    
-
-
-    <!-- http://org.semanticweb.owlapi/error#Error9 -->
-
-    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error9"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
@@ -9770,113 +9548,85 @@ Is this a questionnaire or is it better classified as something else since it in
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000462 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000462">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error1"/>
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error2"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000462"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000752 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000752">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error34"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000752"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000753 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000753">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error36"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000753"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000754 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000754">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error35"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000754"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000756 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000756">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error37"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000756"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000757 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000757">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error32"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000757"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000758 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000758">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error33"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000758"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000759 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000759">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error31"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000759"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000765 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000765">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error30"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000765"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000769 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000769">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error29"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000769"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000770 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000770">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error28"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000770"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000776 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000776">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error27"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000776"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000779 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000779">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error26"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000779"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000829 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000829">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error7"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:NamedIndividual>
     
@@ -9884,24 +9634,19 @@ Is this a questionnaire or is it better classified as something else since it in
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000901 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000901">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error12"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000901"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000958 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000958">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error14"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000958"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000979 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000979">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error13"/>
         <obo:IAO_0000232>This term is misspelled.  It should be &apos;ambidextrous&apos;.
 
 Alexander P. Cox</obo:IAO_0000232>
@@ -9911,153 +9656,115 @@ Alexander P. Cox</obo:IAO_0000232>
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000998 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000998">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error10"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000998"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001213 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001213">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error24"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001213"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001224 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001224">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error23"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001224"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001287 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001287">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error25"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001287"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001312 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001312">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error11"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001312"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001320 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001320">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error18"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001320"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001321 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001321">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error19"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001321"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001338 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001338">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error17"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001338"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001340 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001340">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error21"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001340"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001347 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001347">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error22"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001347"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001355 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001355">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error20"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001355"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001372 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001372">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error15"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001372"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001375 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001375">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error16"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001375"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001424 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001424">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error3"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001424"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001428 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001428">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error6"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001428"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001431 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001431">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error5"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001431"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001434 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001434">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error4"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001434"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001443 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001443">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001443"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001458 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001458">
-        <rdf:type rdf:resource="http://org.semanticweb.owlapi/error#Error8"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001458"/>
     
 
 
@@ -21663,14 +21370,14 @@ Alexander P. Cox</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/bfo.owl">
-        <foaf:homepage rdf:resource="http://ifomis.org/bfo"/>
         <foaf:mbox rdf:resource="mailto:bfo-owl-devel@googlegroups.com"/>
-        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-discuss"/>
+        <foaf:homepage rdf:resource="http://ifomis.org/bfo"/>
         <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-devel"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-discuss"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/bfo.clif"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-        <rdfs:isDefinedBy rdf:resource="http://bfo.googlecode.com/svn/trunk/src/ontology/owl-group/specification/"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo/2012-07-20/ReleaseNotes"/>
+        <rdfs:isDefinedBy rdf:resource="http://bfo.googlecode.com/svn/trunk/src/ontology/owl-group/specification/"/>
         <foaf:homepage rdf:resource="http://code.google.com/p/bfo/"/>
         <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-owl-devel"/>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
