@@ -200,7 +200,7 @@
     <!-- http://purl.obolibrary.org/obo/NPT_0016000 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NPT_0016000">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0016002"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
