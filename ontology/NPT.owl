@@ -40,20 +40,6 @@
 
     <owl:AnnotationProperty rdf:about="&foaf;homepage"/>
     <owl:AnnotationProperty rdf:about="&dc;license"/>
-    <owl:AnnotationProperty rdf:about="&obo;NPT_0016001">
-        <rdfs:label>is functional measurement of</rdfs:label>
-        <obo:IAO_0000115>m is a functional measurement of f at time t when f is a function, m is a measurement datum, and there is a measuring process p that has specified output m that is about f at t
-
-TO DO: specify this definition further</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;NPT_0016000">
-        <rdfs:label>is measurement of</rdfs:label>
-        <obo:IAO_0000115>m is a measurement of e at t when e is an entity, m is a measurement datum, and there is a measurement process p that has specified output m that is about e
-
-TO DO: specify this definition further</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-    </owl:AnnotationProperty>
     <rdf:Description rdf:about="&obo;IAO_0000115">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
