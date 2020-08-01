@@ -5,8 +5,8 @@ The NeuroPsychological Testing Ontology (NPT) represents standardized neuropsych
 Neuropsychological testing is an important component in developing the clinical pictures used in the diagnosis of patients with a range of neurological diseases such as Alzheimer’s disease, multiple sclerosis, and following stroke or traumatic brain injury. An initial goal of this project is to test hypotheses about the diagnosis of Alzheimer’s disease based on the results of neuropsychological assessments. 
 
 NPT currently includes representations of the following assessments:
- - Folstein Mini-Mental State Examination (MMSE)
- - Montreal Cognitive Assessment (MoCA)
+ - [Folstein Mini-Mental State Examination](https://www.parinc.com/products/pkey/237) (MMSE) ([sample exam](http://www.fammed.usouthal.edu/Guides&JobAids/Geriatric/MMSE.pdf))
+ - [Montreal Cognitive Assessment](https://www.mocatest.org/) (MoCA) ([sample exam]())
  - Alzheimer’s Disease Assessment Scale (ADAS)
  - Auditory Verbal Learning Test (AVLT)
  - Trail-Making Test
