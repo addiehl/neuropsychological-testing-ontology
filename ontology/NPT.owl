@@ -2996,9 +2996,9 @@ From: http://www.cognitivetestingservices.com/test-neuropsychological-battery.ph
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000441"/>
-        <obo:IAO_0000115>An assay objective to measure one or more mental functions of the evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An assay objective to measure one or more mental functions of the evaluant.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>mental function measurement objective</rdfs:label>
+        <rdfs:label xml:lang="en">mental function measurement objective</rdfs:label>
     </owl:Class>
     
 
@@ -3034,9 +3034,9 @@ From: http://www.cognitivetestingservices.com/test-neuropsychological-battery.ph
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A categorical measurement datum used to record the results of a cognitive functioning examination as either normal cognitive functioning, mildly impaired cognitive functioning, moderately impaired cognitive functioning, or severely impaired cognitive functioning.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A categorical measurement datum used to record the results of a cognitive functioning examination as either a normal, mildly impaired, moderately impaired, or severely impaired level of cognitive functioning.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>level of cognitive functioning categorical measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">level of cognitive functioning categorical measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3045,7 +3045,7 @@ From: http://www.cognitivetestingservices.com/test-neuropsychological-battery.ph
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011000"/>
-        <obo:IAO_0000115>An assay objective to measure one or more cognitive functions of the evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A mental function measurement objective to measure one or more cognitive functions of the evaluant.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>cognitive function measurement objective</rdfs:label>
     </owl:Class>
@@ -3077,13 +3077,11 @@ From: http://www.cognitivetestingservices.com/test-neuropsychological-battery.ph
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
-        <obo:IAO_0000115>A categorical label that indicates the level of cognitive functioning that the categorical measurment datum represents.
-
-*** REVISIT ***</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A categorical label that categorizes the level of cognitive functioning.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">*** REVIEW IN LIGHT OF CHANGES ***
+It is currently asserted that the subclasses of &apos;cognitive functioning categorical label&apos; denote their respective level of cognitive functioning; however, this is not wholly appropriate since the &apos;denotes&apos; relation is defined as an &quot;instance level relation&quot; and it is used here between classes.  This is a hang-over from switching these label entities from individuals to classes and will need to be addressed at a later point in development once the individual-class usage has been ironed out in NPT.</obo:IAO_0000116>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:comment>*** NOTE ***
-It is currently asserted that the subclasses of &apos;cognitive functioning categorical label&apos; denote their respective level of cognitive functioning; however, this is not wholly appropriate since the &apos;denotes&apos; relation is defined as an &quot;instance level relation&quot; and it is used here between classes.  This is a hang-over from switching these label entities from individuals to classes and will need to be addressed at a later point in development once the individual-class usage has been ironed out in NPT.</rdfs:comment>
-        <rdfs:label>cognitive functioning categorical label</rdfs:label>
+        <rdfs:label xml:lang="en">cognitive functioning categorical label</rdfs:label>
     </owl:Class>
     
 
@@ -3099,9 +3097,11 @@ It is currently asserted that the subclasses of &apos;cognitive functioning cate
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cognitive functioning measurement datum that is the specified output of the realization of a Folstein mini mental examination.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">TO DO:
+Determine whether this class is needed at all.
+
+Previous Note: Determine whether this is the specified output of a Folstein MMSE or it is the numerical measurement datum, such that this categorical measurement datum is a secondary output (or the specified output of another assay that has the numerical measurement datum as its specified input and has this categorical measurement datum as its specified output).</obo:IAO_0000116>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:comment>*** QUESTION ***
-Is this the specified output of a Folstein MMSE or is the proper specified output the numerical measurement datum and this categorical measurement datum is a secondary output (or the specified output of another assay that has the numerical measurement datum as its specified input and has this categorical measurement datum as its specified output)???</rdfs:comment>
         <rdfs:label>Folstein mini mental state examination cognitive functioning categorical measurement datum</rdfs:label>
     </owl:Class>
     
@@ -3117,9 +3117,9 @@ Is this the specified output of a Folstein MMSE or is the proper specified outpu
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the output of a single sub-assay of an admisitered Folstein mini mental state examination and is about some cognitive functioning.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>Folstein mini mental state examination cognitive functioning scalar measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">Folstein mini mental state examination cognitive functioning scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3145,11 +3145,9 @@ Is this the specified output of a Folstein MMSE or is the proper specified outpu
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A scalar score from composite inputs used to record the specified output of a Folstein mini mental state examination assay as an integer from 0 to 30 inclusive.
-
-***CHANGE***</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A cognitive functioning scalar score from composite inputs used to record the specified output of a portion of a Folstein mini mental state examination assay as an integer.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>Folstein mini mental state examination cognitive functioning scalar score from composite inputs</rdfs:label>
+        <rdfs:label xml:lang="en">Folstein mini mental state examination cognitive functioning scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
 
@@ -3158,6 +3156,7 @@ Is this the specified output of a Folstein MMSE or is the proper specified outpu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses all and only the MMSE orientation scalar scores as inputs.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE orientation scalar score from composite inputs</rdfs:label>
     </owl:Class>
@@ -3168,6 +3167,7 @@ Is this the specified output of a Folstein MMSE or is the proper specified outpu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses all and only the MMSE immediate recall scalar scores as inputs.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE immediate recall scalar score from composite inputs</rdfs:label>
     </owl:Class>
@@ -3178,6 +3178,7 @@ Is this the specified output of a Folstein MMSE or is the proper specified outpu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses all and only the MMSE attention and calculation scalar scores as inputs.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE attention and calculation scalar score from composite inputs</rdfs:label>
     </owl:Class>
@@ -3188,6 +3189,7 @@ Is this the specified output of a Folstein MMSE or is the proper specified outpu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses all and only the MMSE recall scalar scores as inputs.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE recall scalar score from composite inputs</rdfs:label>
     </owl:Class>
@@ -3198,6 +3200,7 @@ Is this the specified output of a Folstein MMSE or is the proper specified outpu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses all and only the MMSE language scalar scores as inputs.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE language scalar score from composite inputs</rdfs:label>
     </owl:Class>
@@ -3208,9 +3211,7 @@ Is this the specified output of a Folstein MMSE or is the proper specified outpu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
-        <obo:IAO_0000115>A directive information entity that describes an action an evaluator is required to perform as part of the realization of their evaluator role as a participant in an assay.
-
-*** REVIEW ***</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An action specification that describes an action an evaluator is required to perform as part of the realization of their evaluator role as a participant in an assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>evaluator action specification</rdfs:label>
     </owl:Class>
@@ -3221,9 +3222,7 @@ Is this the specified output of a Folstein MMSE or is the proper specified outpu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
-        <obo:IAO_0000115>A directive information entity that describes an action an evaluant is required to perform as part of the realization of their evaluant role as a participant in an assay.
-
-*** REVIEW ***</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An action specification that describes an action an evaluant is required to perform as part of the realization of their evaluant role as a participant in an assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>evaluant action specification</rdfs:label>
     </owl:Class>
@@ -3704,6 +3703,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE date assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE date scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3714,6 +3714,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE year assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE year scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3724,6 +3725,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE month assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE month scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3734,6 +3736,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE day assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE day scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3744,6 +3747,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE season assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE season scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3754,6 +3758,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE building assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE building scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3764,6 +3769,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE floor assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE floor scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3774,6 +3780,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE city assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE city scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3784,6 +3791,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE county assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE county scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3794,6 +3802,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE state assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE state scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3803,7 +3812,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall ball assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE immediate recall ball scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3813,7 +3823,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall flag assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE immediate recall flag scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3823,7 +3834,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall tree assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE immediate recall tree scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3833,7 +3845,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall number of trials assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE immediate recall number of trials scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3843,7 +3856,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE recall scalar measurement datum that is the output of a MMSE recall ball assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE recall ball scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3853,7 +3867,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE recall scalar measurement datum that is the output of a MMSE recall flag assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE recall flag scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3863,7 +3878,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE recall scalar measurement datum that is the output of a MMSE recall tree assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE recall tree scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3874,6 +3890,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE naming assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE naming scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3883,7 +3900,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011059">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011058"/>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE naming watch scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3893,7 +3910,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011058"/>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE naming pencil scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3904,6 +3921,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE repetition assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE repetition scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3914,6 +3932,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE three stage command scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3924,6 +3943,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command takes assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE three stage command takes scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3934,6 +3954,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command folds assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE three stage command folds scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3944,6 +3965,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command puts assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE three stage command puts scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3954,6 +3976,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE reading assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE reading scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3964,6 +3987,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE writing assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE writing scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3974,6 +3998,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE copying assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE copying scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3998,9 +4023,9 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A datum used to record whether the answer to an assessment is correct or not.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A datum used to record whether the answer to an assessment is correct or not.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>correctness categorical measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">correctness categorical measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -4009,9 +4034,9 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
-        <obo:IAO_0000115>A categorical label that indicates whether a datum represents a correct answer to an assessment or not.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A categorical label that categorizes whether a datum represents a correct answer to an assessment or not.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>correctness categorical label</rdfs:label>
+        <rdfs:label xml:lang="en">correctness categorical label</rdfs:label>
     </owl:Class>
     
 
@@ -4043,9 +4068,9 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A datum used to record the answer to a yes-no question.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A datum used to record the answer to a yes-no question.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>polar question categorical measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">polar question categorical measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -4054,9 +4079,9 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
-        <obo:IAO_0000115>A categorical label that indicates whether a datum represents a &apos;yes&apos; or a &apos;no&apos; answer to the question.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A categorical label that categorizes whether a datum represents a &apos;yes&apos; or a &apos;no&apos; answer to the question.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>polar question categorical label</rdfs:label>
+        <rdfs:label xml:lang="en">polar question categorical label</rdfs:label>
     </owl:Class>
     
 
@@ -5581,12 +5606,10 @@ Note the disanalogy between the relationship between so-called cognitive qualiti
     <!-- http://purl.obolibrary.org/obo/NPT_0013002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0013002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0013006"/>
-        <obo:IAO_0000115>A cognitive quality that represents that its bearer&apos;s current cognitive functioning is comparable to the level of cognitive functioning that a healthy member of that type of entity bears.
-
-*** REVIEW ***</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011001"/>
+        <obo:IAO_0000115 xml:lang="en">A level of cognitive functioning categorical measurement datum that represents that its bearer&apos;s current cognitive functioning is comparable to the level of cognitive functioning that a healthy member of that type of entity bears.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>normal cognition</rdfs:label>
+        <rdfs:label xml:lang="en">normal level of cognitive functioning</rdfs:label>
     </owl:Class>
     
 
@@ -5594,12 +5617,10 @@ Note the disanalogy between the relationship between so-called cognitive qualiti
     <!-- http://purl.obolibrary.org/obo/NPT_0013003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0013003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0013006"/>
-        <obo:IAO_0000115>A cognitive quality that represents that its bearer&apos;s current cognitive functioning is mildly impaired in comparison to the level of cognitive functioning that a healthy member of that type of entity bears.
-
-*** REVIEW ***</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011001"/>
+        <obo:IAO_0000115 xml:lang="en">A level of cognitive functioning categorical measurement datum that represents that its bearer&apos;s current cognitive functioning is mildly impaired in comparison to the level of cognitive functioning that a healthy member of that type of entity bears.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>mildly impaired cognition</rdfs:label>
+        <rdfs:label xml:lang="en">mildly impaired level of cognitive functioning</rdfs:label>
     </owl:Class>
     
 
@@ -5607,12 +5628,10 @@ Note the disanalogy between the relationship between so-called cognitive qualiti
     <!-- http://purl.obolibrary.org/obo/NPT_0013004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0013004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0013006"/>
-        <obo:IAO_0000115>A cognitive quality that represents that its bearer&apos;s current cognitive functioning is moderately impaired in comparison to the level of cognitive functioning that a healthy member of that type of entity bears.
-
-*** REVIEW ***</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011001"/>
+        <obo:IAO_0000115 xml:lang="en">A level of cognitive functioning categorical measurement datum that represents that its bearer&apos;s current cognitive functioning is moderately impaired in comparison to the level of cognitive functioning that a healthy member of that type of entity bears.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>moderately impaired cognition</rdfs:label>
+        <rdfs:label xml:lang="en">moderately impaired level of cognitive functioning</rdfs:label>
     </owl:Class>
     
 
@@ -5620,12 +5639,10 @@ Note the disanalogy between the relationship between so-called cognitive qualiti
     <!-- http://purl.obolibrary.org/obo/NPT_0013005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0013005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0013006"/>
-        <obo:IAO_0000115>A cognitive quality that represents that its bearer&apos;s current cognitive functioning is severely impaired in comparison to the level of cognitive functioning that a healthy member of that type of entity bears.
-
-*** REVIEW ***</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011001"/>
+        <obo:IAO_0000115 xml:lang="en">A level of cognitive functioning categorical measurement datum that represents that its bearer&apos;s current cognitive functioning is severely impaired in comparison to the level of cognitive functioning that a healthy member of that type of entity bears.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>severely impaired cognition</rdfs:label>
+        <rdfs:label xml:lang="en">severely impaired level of cognitive functioning</rdfs:label>
     </owl:Class>
     
 
@@ -5633,14 +5650,9 @@ Note the disanalogy between the relationship between so-called cognitive qualiti
     <!-- http://purl.obolibrary.org/obo/NPT_0013006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0013006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011001"/>
-        <obo:IAO_0000115>A cognitive quality that represents the degree to which its bearer&apos;s current cognitive functioning is representative of the level of cognitive functioning that a healthy member of that type of entity bears.
-
-*** REVIEW ***</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:comment>*** NOTE from Alexander P. Cox ***
-
-This class was created as part of the initial attempt to represent the entities that cognitive function measurement data are about.  Later considerations nearly led me to delete this class and all mental quality classes due to a theoretical issue concerning what mental qualities are qualities of.  (See the comment for mental quality for more info on this.)  However, it seems clear that, if there is such a thing as a level of cognitive functioning, these levels are in fact qualities and are most likely qualities of cognitive functions (or the processes that realize them).
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive function that is inferred from data about one or more cognitive functions and indicates the degree to which an individual&apos;s cognitive functioning compares to that of a healthy individual from the same population.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This class was created as part of the initial attempt to represent the entities that cognitive function measurement data are about.  Later considerations nearly led me to delete this class and all mental quality classes due to a theoretical issue concerning what mental qualities are qualities of.  (See the comment for mental quality for more info on this.)  However, it seems clear that, if there is such a thing as a level of cognitive functioning, these levels are in fact qualities and are most likely qualities of cognitive functions (or the processes that realize them).
 
 Another question arises as to whether a cognitive function is the sort of thing that can have levels.  There are at least 2 ways that we can understand an affirmative answer to this question.  First, it may be the case that cognitive functions can be partially realized in cognitive processes.  If this is the case, then we might say that a function that gets 100% realized has the normal level of functioning quality.  Similarly, a function that gets 95% realized has the mildly impaired level of functioning quality, and so on for the other levels of functioning, which will be assigned ranges of their % of realization.  The presumption here is that we can indirectly measure the degree of realization of a function by measuring the degree of completion of the process that realizes it.  There may, of course, be reasons other than an impairment of a function as to why a process is not fully realized, but we can set this issue aside for now.  According to this approach for representing qualities of functions, a function is the sort of thing that comes in degrees and can be partially realized.
 
@@ -5648,10 +5660,11 @@ It may be objected that functions are binary in the sense that their realization
 
 It is my contention that the second approach to understanding levels of cognitive functions (and qualities of functions in general) is preferable to the first.  There is, however, yet another question that may cause problems for this view.  Namely, if the realization of a function is all or nothing and a particular process does not successfully realize a function, is that process still an instance of the type of process that is supposed to realize that function?  For example, the recall process is the process through which the recall function is realized.  If the subject does not successfully recall the piece of information in question, then, according to this view, the recall function was not realized.  But, if the recall function wasn&apos;t realized, then the recall process must not have occurred.  This may cause a problem for the generation of success rates for functions since every process will, by definition, always be successful.  This is because the process only occurs if it realizes the function and the function is only realized if it is successful.  It follows that processes are always successful.  While this raises interesting questions concerning the nature of processes, functions, and their relationship to one another, I think that the problem for determining the success rate of functions is artificial.  What matters for the calculation of success rates is the number of times that the process is attempted or, at least, is supposed to occur.  The exact definition of an attempted process may need to be defined, but, for now, I expect that we can lean on our folk understanding of these matters to generate success rates.
 
-It is worth noting that the above discussion is driven by considerations regarding relatively simple functions/processes.  That is, it assumes that the functions/processes receive an input, do their thing, and then, if successful, produce an output.  It is very likely that most functions/processes that we are concerned with are more complex than this and have many subprocesses that realize their respective subfunctions.  In fact, the folk understanding of a process arguably includes an assumption that the process has subprocesses that must occur in some sequence in order for the larger process to be completed.  For example, the process of walking down a flight of stairs will have subprocess for each step down as parts.  This understanding of processes lends itself better to the first approach of assigning the qualities of level of functioning.  In the stairs example, we might say that a person who successfully makes it down 19 steps before falling on the 20th and final step had a 95% success rate because they completed 95% of the walking down the stairs process.  While this is a natural way to look at the issue, it does not undermine the second proposed solution.  What occurs in the stairs example is a repetition of the taking a step down function.  To say that the process of walking down the stairs is 95% completed is not to say that the walking down the stairs function was 95% realized, but rather to say that the taking a step down function is successfully realized 19 out of 20 times.  According to this account, there is no walking down the stairs function; rather, there is a taking a step down function that can be realized multiple times during a larger process that has many instances of the taking a step down process as parts.</rdfs:comment>
-        <rdfs:comment>*** QUESTION ***
-Should this be labeled &apos;level of cognition&apos; instead?</rdfs:comment>
-        <rdfs:label>level of cognitive functioning</rdfs:label>
+It is worth noting that the above discussion is driven by considerations regarding relatively simple functions/processes.  That is, it assumes that the functions/processes receive an input, do their thing, and then, if successful, produce an output.  It is very likely that most functions/processes that we are concerned with are more complex than this and have many subprocesses that realize their respective subfunctions.  In fact, the folk understanding of a process arguably includes an assumption that the process has subprocesses that must occur in some sequence in order for the larger process to be completed.  For example, the process of walking down a flight of stairs will have subprocess for each step down as parts.  This understanding of processes lends itself better to the first approach of assigning the qualities of level of functioning.  In the stairs example, we might say that a person who successfully makes it down 19 steps before falling on the 20th and final step had a 95% success rate because they completed 95% of the walking down the stairs process.  While this is a natural way to look at the issue, it does not undermine the second proposed solution.  What occurs in the stairs example is a repetition of the taking a step down function.  To say that the process of walking down the stairs is 95% completed is not to say that the walking down the stairs function was 95% realized, but rather to say that the taking a step down function is successfully realized 19 out of 20 times.  According to this account, there is no walking down the stairs function; rather, there is a taking a step down function that can be realized multiple times during a larger process that has many instances of the taking a step down process as parts.
+
+Alexander P. Cox</obo:IAO_0000116>
+        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">conclusion based on data about level of cognitive function</rdfs:label>
     </owl:Class>
     
 
@@ -7536,7 +7549,6 @@ Word Recognition Task Scoring: On the CRF, the examiner should check the â€œyesâ
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000116>Not sure if this is needed. Is there an output of the entire ADNI ADAS assay?</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8492,12 +8504,10 @@ Downloded from: http://adni-info.org/Scientists/ProceduresManuals.aspx#</obo:IAO
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000116>Defintion copied from Folstein mini mental state examination cognitive functioning numerical measurement datum. 
-
-NPT_0011007</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A cognitive functioning scalar score from composite inputs used to record the specified output of a portion of a Montreal cognititve assesment assay as an integer.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <rdfs:comment>A scalar score from composite inputs used to record the specified output of a Montreal cognititve assesment assay as an integer from 0 to 30 inclusive.</rdfs:comment>
-        <rdfs:label>Montreal cognitive assessment scalar score from composite inputs</rdfs:label>
+        <rdfs:label xml:lang="en">Montreal cognitive assessment scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
 
@@ -9087,6 +9097,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive function that is inferred from data about one or more forgetting cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about forgetting cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9107,6 +9118,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive function that is inferred from data about one or more visual/spatial cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about visual/spatial cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9127,6 +9139,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive function that is inferred from data about one or more cognitive orientation functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about cognitive orientation function</rdfs:label>
     </owl:Class>
     
@@ -9147,6 +9160,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022006"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive orientation function that is inferred from data about one or more temporal cognitive orientation functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about temporal cognitive orientation function</rdfs:label>
     </owl:Class>
     
@@ -9167,6 +9181,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022006"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive orientation function that is inferred from data about one or more spatial cognitive orientation functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about spatial cognitive orientation function</rdfs:label>
     </owl:Class>
     
@@ -9187,6 +9202,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022006"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive orientation function that is inferred from data about one or more personal cognitive orientation functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about personal cognitive orientation function</rdfs:label>
     </owl:Class>
     
@@ -9207,6 +9223,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive function that is inferred from data about one or more receptive cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about receptive cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9227,6 +9244,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022010"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about receptive cognitive function that is inferred from data about one or more sensory reception cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about sensory reception cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9247,6 +9265,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022010"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about receptive cognitive function that is inferred from data about one or more perception cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about perception cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9267,6 +9286,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive function that is inferred from data about one or more memory/learning cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about memory/learning cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9287,6 +9307,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about memory/learning cognitive function that is inferred from data about one or more declarative memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about declarative memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9307,6 +9328,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more registration memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about registration memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9327,6 +9349,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more short term memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about short term memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9347,6 +9370,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022016"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about short term memory cognitive function that is inferred from data about one or more immediate memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about immediate memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9367,6 +9391,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022016"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about short term memory cognitive function that is inferred from data about one or more rehearsal memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about rehearsal memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9387,6 +9412,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022016"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about short term memory cognitive function that is inferred from data about one or more medium term memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about medium term memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9407,6 +9433,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more long term memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about long term memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9427,6 +9454,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022020"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about long term memory cognitive function that is inferred from data about one or more incidental learning cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about incidental learning cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9447,6 +9475,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022020"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about long term memory cognitive function that is inferred from data about one or more autobiographical memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about autobiographical memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9467,7 +9496,8 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022022"/>
-        <rdfs:comment xml:lang="en">If this concerns a &quot;recent&quot; autobiographical memory, does that make it a short term cognitive function instead of a long term one?</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about autobiographical memory cognitive function that is inferred from data about one or more recent autobiographical memory cognitive functions.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Since this concerns a &quot;recent&quot; autobiographical memory, does that make it a short term cognitive function instead of a long term one?</obo:IAO_0000116>
         <rdfs:label xml:lang="en">conclusion based on data about recent autobiographical memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9488,6 +9518,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022022"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about autobiographical memory cognitive function that is inferred from data about one or more remote autobiographical memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about remote autobiographical memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9508,6 +9539,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more remembering cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about remembering cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9528,6 +9560,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022025"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about remembering cognitive function that is inferred from data about one or more recall memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about recall memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9548,6 +9581,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022025"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about remembering cognitive function that is inferred from data about one or more recognition memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about recognition memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9568,6 +9602,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more material specific memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about material specific memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9588,6 +9623,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022028"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about material specific memory cognitive function that is inferred from data about one or more verbal memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about verbal memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9608,6 +9644,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022028"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about material specific memory cognitive function that is inferred from data about one or more nonverbal memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about nonverbal memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9628,6 +9665,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022028"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about material specific memory cognitive function that is inferred from data about one or more motor skill learning cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about motor skill learning cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9648,6 +9686,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more modality specific memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about modality specific memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9668,6 +9707,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more episodic memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about episodic memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9688,6 +9728,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more semantic memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about semantic memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9708,6 +9749,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more automatic memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about automatic memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9728,6 +9770,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more effortful memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about effortful memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9748,6 +9791,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more source memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about source memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9768,6 +9812,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about declarative memory cognitive function that is inferred from data about one or more prospective memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about prospective memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9788,6 +9833,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about memory/learning cognitive function that is inferred from data about one or more nondeclarative memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about nondeclarative memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9808,6 +9854,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022039"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about nondeclarative memory cognitive function that is inferred from data about one or more procedural memory cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about procedural memory cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9828,6 +9875,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022039"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about nondeclarative memory cognitive function that is inferred from data about one or more priming cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about priming cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9848,6 +9896,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022039"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about nondeclarative memory cognitive function that is inferred from data about one or more classical conditioning cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about classical conditioning cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9868,6 +9917,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive function that is inferred from data about one or more executive cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about executive cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9888,6 +9938,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive function that is inferred from data about one or more expressive cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about expressive cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9908,6 +9959,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022044"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about expressive cognitive function that is inferred from data about one or more linguistic cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about linguistic cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9928,6 +9980,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022045"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about linguistic cognitive function that is inferred from data about one or more naming cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about naming cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9948,6 +10001,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022045"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about linguistic cognitive function that is inferred from data about one or more word generation cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about word generation cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9968,6 +10022,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022047"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about word generation cognitive function that is inferred from data about one or more linguistic category fluency cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about linguistic category fluency cognitive function</rdfs:label>
     </owl:Class>
     
@@ -9988,6 +10043,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022047"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about word generation cognitive function that is inferred from data about one or more linguistic letter fluency cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about linguistic letter fluency cognitive function</rdfs:label>
     </owl:Class>
     
@@ -10008,6 +10064,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022045"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about linguistic cognitive function that is inferred from data about one or more language repetition cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about language repetition cognitive function</rdfs:label>
     </owl:Class>
     
@@ -10028,6 +10085,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022045"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about linguistic cognitive function that is inferred from data about one or more speech production cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about speech production cognitive function</rdfs:label>
     </owl:Class>
     
@@ -10048,6 +10106,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022045"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about linguistic cognitive function that is inferred from data about one or more language comprehension cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about language comprehension cognitive function</rdfs:label>
     </owl:Class>
     
@@ -10068,6 +10127,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022045"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about linguistic cognitive function that is inferred from data about one or more reading cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about reading cognitive function</rdfs:label>
     </owl:Class>
     
@@ -10088,6 +10148,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022045"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about linguistic cognitive function that is inferred from data about one or more writing cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about writing cognitive function</rdfs:label>
     </owl:Class>
     
@@ -10108,6 +10169,7 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022003"/>
+        <obo:IAO_0000115 xml:lang="en">A conclusion based on data about cognitive function that is inferred from data about one or more attention cognitive functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about attention cognitive function</rdfs:label>
     </owl:Class>
     
@@ -10130,6 +10192,47 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022002"/>
         <obo:IAO_0000115 xml:lang="en">A conclusion based on data about mental function that is inferred from data about one or more emotional functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about emotional function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE immediate recall assay.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">MMSE immediate recall scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT.owl/NPT_0022003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE recall assay.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">MMSE recall scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT.owl/NPT_0022004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses every MMSE component scalar score as inputs and records the specified output of a Folstein mini mental state examination assay as an integer from 0 to 30 inclusive.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">MMSE total scalar score from composite inputs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT.owl/NPT_0022005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0020147"/>
+        <obo:IAO_0000115 xml:lang="en">A Montreal cognitive assessment scalar score from composite inputs that uses every MoCA component scalar score as inputs and records the specified output of a Montreal cognitive assessment assay as an integer from 0 to 30 inclusive.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MoCA total scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
 
@@ -10290,3 +10393,4 @@ Is this a questionnaire or is it better classified as something else since it in
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
