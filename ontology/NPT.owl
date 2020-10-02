@@ -105,11 +105,11 @@ TO DO: specify this definition further</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/NPT_0014000 -->
 
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT_0014000">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
-        <obo:IAO_0000115>The numerical score that is the specified output of some assay.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022006"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000115 xml:lang="en">The numerical score that is the specified output of some assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P Cox</obo:IAO_0000117>
-        <rdfs:label>has numerical score</rdfs:label>
+        <rdfs:label xml:lang="en">has numerical score</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -312,9 +312,9 @@ TO DO: specify this definition further</obo:IAO_0000115>
                 </owl:oneOf>
             </rdfs:Datatype>
         </rdfs:range>
-        <obo:IAO_0000115>The numerical score that is the specified output between 0 and 30 inclusive of a Folstein mini mental examination assay.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The numerical score that is the specified output between 0 and 30 inclusive of a Folstein mini mental examination assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P Cox</obo:IAO_0000117>
-        <rdfs:label>has MMSE score</rdfs:label>
+        <rdfs:label xml:lang="en">has MMSE score</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -324,7 +324,7 @@ TO DO: specify this definition further</obo:IAO_0000115>
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT_0014002">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0014000"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:label>has MMSE orientation score</rdfs:label>
+        <rdfs:label xml:lang="en">has MMSE orientation score</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -334,7 +334,7 @@ TO DO: specify this definition further</obo:IAO_0000115>
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT_0014003">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0014000"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:label>has MMSE immediate recall score</rdfs:label>
+        <rdfs:label xml:lang="en">has MMSE immediate recall score</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -344,7 +344,7 @@ TO DO: specify this definition further</obo:IAO_0000115>
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT_0014004">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0014000"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:label>has MMSE attention and calculation score</rdfs:label>
+        <rdfs:label xml:lang="en">has MMSE attention and calculation score</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -354,7 +354,7 @@ TO DO: specify this definition further</obo:IAO_0000115>
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT_0014005">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0014000"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:label>has MMSE recall score</rdfs:label>
+        <rdfs:label xml:lang="en">has MMSE recall score</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -364,7 +364,7 @@ TO DO: specify this definition further</obo:IAO_0000115>
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT_0014006">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0014000"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:label>has MMSE language score</rdfs:label>
+        <rdfs:label xml:lang="en">has MMSE language score</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -567,10 +567,9 @@ TO DO: specify this definition further</obo:IAO_0000115>
                 </owl:oneOf>
             </rdfs:Datatype>
         </rdfs:range>
-        <obo:IAO_0000115>The numerical score between 0 and 30 inclusive that is the specified output of a Montreal congitive assessment assay.</obo:IAO_0000115>
-        <obo:IAO_0000116>Defintion copied from has MMSE score. NPT_0014001</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">The numerical score between 0 and 30 inclusive that is the specified output of a Montreal Cognitive Assessment Assay.</obo:IAO_0000115>
         <rdfs:comment>Mark Jensen</rdfs:comment>
-        <rdfs:label>has MoCA score</rdfs:label>
+        <rdfs:label xml:lang="en">has MoCA score</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -580,7 +579,26 @@ TO DO: specify this definition further</obo:IAO_0000115>
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT_0020098">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0014000"/>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <rdfs:label>has ADAS word recall trial one score</rdfs:label>
+        <rdfs:label xml:lang="en">has ADAS word recall trial one score</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT.owl/NPT_0022006 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022006">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000178"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <obo:IAO_0000115 xml:lang="en">A generic data property that connects an instance of either an information content entity or a material information bearer to a literal value.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">TO DO: Determine whether the domain of this property should be restricted to material information bearer.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has value</rdfs:label>
     </owl:DatatypeProperty>
     
 
