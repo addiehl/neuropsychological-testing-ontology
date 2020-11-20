@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2020/1/NPT.owl#"
-     xml:base="http://www.semanticweb.org/ontologies/2020/1/NPT.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/NPT.owl#"
+     xml:base="http://purl.obolibrary.org/obo/NPT.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:NPT="http://www.semanticweb.org/ontologies/2020/1/NPT.owl/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -14,16 +13,16 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/NPT.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/NPT/2020-07-23/NPT.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/NPT/2020-11-13/NPT.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000118 xml:lang="en">NPT</obo:IAO_0000118>
         <dc:contributor xml:lang="en">Alexander D. Diehl</dc:contributor>
         <dc:contributor xml:lang="en">Alexander P. Cox</dc:contributor>
         <dc:contributor xml:lang="en">Mark Jensen</dc:contributor>
-        <dc:description xml:lang="en">The NeuroPsychological Testing Ontology is designed to represent data about cognitive tests, data gathered via the administration of these tests, and conclusions based on this test data.</dc:description>
+        <dc:description xml:lang="en">The NeuroPsychological Testing Ontology is designed to represent cognitive tests, data gathered via the administration of these tests, and conclusions based on this test data.</dc:description>
         <rdfs:label xml:lang="en">NeuroPsychological Testing Ontology</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">July 23, 2020</owl:versionInfo>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 1.7.3</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">November 13, 2020</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 1.7.4</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -45,9 +44,7 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-        <obo:IAO_0000115>m is a measurement of e at t when e is an entity, m is a measurement datum, and there is a measurement process p that has specified output m that is about e
-
-TO DO: specify this definition further</obo:IAO_0000115>
+        <obo:IAO_0000115>m is a measurement of e at t when e is an entity, m is a measurement datum, and there is a measurement process p that has specified output m that is about e</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>is measurement of</rdfs:label>
     </owl:ObjectProperty>
@@ -60,9 +57,7 @@ TO DO: specify this definition further</obo:IAO_0000115>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0016000"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-        <obo:IAO_0000115>m is a functional measurement of f at time t when f is a function, m is a measurement datum, and there is a measuring process p that has specified output m that is about f at t
-
-TO DO: specify this definition further</obo:IAO_0000115>
+        <obo:IAO_0000115>m is a functional measurement of f at time t when f is a function, m is a measurement datum, and there is a measuring process p that has specified output m that is about f at t</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>is functional measurement of</rdfs:label>
     </owl:ObjectProperty>
@@ -105,7 +100,7 @@ TO DO: specify this definition further</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/NPT_0014000 -->
 
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT_0014000">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022006"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022006"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <obo:IAO_0000115 xml:lang="en">The numerical score that is the specified output of some assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P Cox</obo:IAO_0000117>
@@ -584,9 +579,9 @@ TO DO: specify this definition further</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NPT.owl/NPT_0022006 -->
+    <!-- http://purl.obolibrary.org/obo/NPT_0022006 -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022006">
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/NPT_0022006">
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -3136,7 +3131,7 @@ Previous Note: Determine whether this is the specified output of a Folstein MMSE
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the output of a single sub-assay of an admisitered Folstein mini mental state examination and is about some cognitive functioning.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Folstein mini mental state examination cognitive functioning scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -3164,7 +3159,7 @@ Previous Note: Determine whether this is the specified output of a Folstein MMSE
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A cognitive functioning scalar score from composite inputs used to record the specified output of a portion of a Folstein mini mental state examination assay as an integer.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Folstein mini mental state examination cognitive functioning scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
@@ -3175,8 +3170,8 @@ Previous Note: Determine whether this is the specified output of a Folstein MMSE
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses all and only the MMSE orientation scalar scores as inputs.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE orientation scalar score from composite inputs</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE orientation scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
 
@@ -3186,8 +3181,8 @@ Previous Note: Determine whether this is the specified output of a Folstein MMSE
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses all and only the MMSE immediate recall scalar scores as inputs.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE immediate recall scalar score from composite inputs</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE immediate recall scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
 
@@ -3197,8 +3192,8 @@ Previous Note: Determine whether this is the specified output of a Folstein MMSE
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses all and only the MMSE attention and calculation scalar scores as inputs.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE attention and calculation scalar score from composite inputs</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE attention and calculation scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
 
@@ -3208,8 +3203,8 @@ Previous Note: Determine whether this is the specified output of a Folstein MMSE
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses all and only the MMSE recall scalar scores as inputs.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE recall scalar score from composite inputs</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE recall scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
 
@@ -3219,8 +3214,8 @@ Previous Note: Determine whether this is the specified output of a Folstein MMSE
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses all and only the MMSE language scalar scores as inputs.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE language scalar score from composite inputs</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE language scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
 
@@ -3722,8 +3717,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE date assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE date scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE date scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3733,8 +3728,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE year assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE year scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE year scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3744,8 +3739,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE month assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE month scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE month scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3755,8 +3750,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE day assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE day scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE day scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3766,8 +3761,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE season assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE season scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE season scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3777,8 +3772,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE building assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE building scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE building scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3788,8 +3783,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE floor assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE floor scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE floor scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3799,8 +3794,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE city assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE city scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE city scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3810,8 +3805,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE county assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE county scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE county scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3821,8 +3816,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE state assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE state scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE state scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3830,10 +3825,10 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022002"/>
         <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall ball assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE immediate recall ball scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE immediate recall ball scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3841,10 +3836,10 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022002"/>
         <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall flag assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE immediate recall flag scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE immediate recall flag scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3852,10 +3847,10 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022002"/>
         <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall tree assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE immediate recall tree scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE immediate recall tree scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3863,10 +3858,10 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022002"/>
         <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall number of trials assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE immediate recall number of trials scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE immediate recall number of trials scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3874,7 +3869,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022003"/>
         <obo:IAO_0000115 xml:lang="en">An MMSE recall scalar measurement datum that is the output of a MMSE recall ball assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE recall ball scalar measurement datum</rdfs:label>
@@ -3885,7 +3880,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022003"/>
         <obo:IAO_0000115 xml:lang="en">An MMSE recall scalar measurement datum that is the output of a MMSE recall flag assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE recall flag scalar measurement datum</rdfs:label>
@@ -3896,7 +3891,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022003"/>
         <obo:IAO_0000115 xml:lang="en">An MMSE recall scalar measurement datum that is the output of a MMSE recall tree assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label>MMSE recall tree scalar measurement datum</rdfs:label>
@@ -3909,8 +3904,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE naming assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE naming scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE naming scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3940,8 +3935,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE repetition assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE repetition scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE repetition scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3951,8 +3946,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE three stage command scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE three stage command scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3962,8 +3957,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command takes assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE three stage command takes scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE three stage command takes scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3973,8 +3968,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command folds assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE three stage command folds scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE three stage command folds scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3984,8 +3979,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command puts assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE three stage command puts scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE three stage command puts scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3995,8 +3990,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE reading assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE reading scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE reading scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -4006,8 +4001,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE writing assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE writing scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE writing scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -4017,8 +4012,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE copying assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE copying scalar measurement datum</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE copying scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -8212,6 +8207,22 @@ DSPANBLTH: 2-7</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0020134"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/NPT_0016001"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012071"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -8524,7 +8535,7 @@ Downloded from: http://adni-info.org/Scientists/ProceduresManuals.aspx#</obo:IAO
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A cognitive functioning scalar score from composite inputs used to record the specified output of a portion of a Montreal cognititve assesment assay as an integer.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
-        <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mark Jensen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Montreal cognitive assessment scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
@@ -9033,6 +9044,116 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS word recall scalar score from composite inputs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE immediate recall assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE immediate recall scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE recall assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE recall scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses every MMSE component scalar score as inputs and records the specified output of a Folstein mini mental state examination assay as an integer from 0 to 30 inclusive.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE total scalar score from composite inputs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0020147"/>
+        <obo:IAO_0000115 xml:lang="en">A Montreal cognitive assessment scalar score from composite inputs that uses every MoCA component scalar score as inputs and records the specified output of a Montreal cognitive assessment assay as an integer from 0 to 30 inclusive.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MoCA total scalar score from composite inputs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE attention and calculation assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE attention and calculation scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022007"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE attention and calculation scalar measurement datum that is the first output of an MMSE attention and calculation assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE attention and calculation first item scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022007"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE attention and calculation scalar measurement datum that is the second output of an MMSE attention and calculation assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE attention and calculation second item scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022007"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE attention and calculation scalar measurement datum that is the third output of an MMSE attention and calculation assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE attention and calculation third item scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022007"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE attention and calculation scalar measurement datum that is the fourth output of an MMSE attention and calculation assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE attention and calculation fourth item scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022007"/>
+        <obo:IAO_0000115 xml:lang="en">An MMSE attention and calculation scalar measurement datum that is the fifth output of an MMSE attention and calculation assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE attention and calculation fifth item scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -10210,47 +10331,6 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT.owl/ND_0022002"/>
         <obo:IAO_0000115 xml:lang="en">A conclusion based on data about mental function that is inferred from data about one or more emotional functions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conclusion based on data about emotional function</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE immediate recall assay.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">MMSE immediate recall scalar measurement datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NPT.owl/NPT_0022003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE recall assay.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">MMSE recall scalar measurement datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NPT.owl/NPT_0022004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011007"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar score from composite inputs that uses every MMSE component scalar score as inputs and records the specified output of a Folstein mini mental state examination assay as an integer from 0 to 30 inclusive.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">MMSE total scalar score from composite inputs</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NPT.owl/NPT_0022005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT.owl/NPT_0022005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0020147"/>
-        <obo:IAO_0000115 xml:lang="en">A Montreal cognitive assessment scalar score from composite inputs that uses every MoCA component scalar score as inputs and records the specified output of a Montreal cognitive assessment assay as an integer from 0 to 30 inclusive.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">MoCA total scalar score from composite inputs</rdfs:label>
     </owl:Class>
     
 
