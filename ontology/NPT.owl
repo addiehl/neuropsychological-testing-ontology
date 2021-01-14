@@ -13,16 +13,17 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/NPT.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/NPT/2020-11-13/NPT.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/NPT/2021-01-14/NPT.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000118 xml:lang="en">NPT</obo:IAO_0000118>
         <dc:contributor xml:lang="en">Alexander D. Diehl</dc:contributor>
         <dc:contributor xml:lang="en">Alexander P. Cox</dc:contributor>
         <dc:contributor xml:lang="en">Mark Jensen</dc:contributor>
         <dc:description xml:lang="en">The NeuroPsychological Testing Ontology is designed to represent cognitive tests, data gathered via the administration of these tests, and conclusions based on this test data.</dc:description>
+        <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
         <rdfs:label xml:lang="en">NeuroPsychological Testing Ontology</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">November 13, 2020</owl:versionInfo>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 1.7.4</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">January 14, 2021</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 1.7.5</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -674,9 +675,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000111>Folstein mini mental state examination assay</obo:IAO_0000111>
-        <obo:IAO_0000115>A cognitive functioning assay consisting of a standardized sequence of brief cognitive tasks emphasizing orientation, memory, attention, executive function, and language that generates a scalar score from 0 to 30 that is used as a global measurement of cognitive functioning and to screen for cognitive impairment.
-
-*** REVISE ***</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A cognitive functioning assay consisting of a standardized sequence of brief cognitive tasks emphasizing orientation, memory, attention, executive function, and language that generates a scalar score from 0 to 30 that is used as a global measurement of cognitive functioning and to screen for cognitive impairment.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein MMSE assay</obo:IAO_0000118>
         <obo:IAO_0000118>Folstein assay</obo:IAO_0000118>
@@ -695,7 +694,7 @@
         <rdfs:comment>*** TO DO ***
 
 Revise the specified output(s) once the measurment datum classes are revised.</rdfs:comment>
-        <rdfs:label>Folstein mini mental state examination assay</rdfs:label>
+        <rdfs:label xml:lang="en">Folstein mini mental state examination assay</rdfs:label>
     </owl:Class>
     
 
@@ -703,14 +702,14 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An assay used to test mental functioning by having the evaluant count down from one hundred by sevens.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A MMSE attention and calculation assay in which the evaluant is instructed to count down from one hundred in increments of seven.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination serial sevens assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE serial sevens assay</obo:IAO_0000118>
@@ -767,66 +766,6 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010005"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010007"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010009"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010013"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -836,6 +775,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A cognitive functioning assay that is part of a Folstein mini mental state examination assay and which is designed to assess the evaluant&apos;s cognitive orientation capacities.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination orientation assay</obo:IAO_0000118>
         <obo:IAO_0000118>mini mental state examination orientation assay</obo:IAO_0000118>
@@ -847,7 +787,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -860,6 +800,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation assay in which the evaluant is instructed to verbally identify what the current date is.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination date assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE date orientation assay</obo:IAO_0000118>
@@ -872,7 +813,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -885,6 +826,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation assay in which the evaluant is instructed to verbally identify what the current year is.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination year assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE year orientation assay</obo:IAO_0000118>
@@ -897,7 +839,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -910,6 +852,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation assay in which the evaluant is instructed to verbally identify what the current month is.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination month assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE month orientation assay</obo:IAO_0000118>
@@ -922,7 +865,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -935,6 +878,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation assay in which the evaluant is instructed to verbally identify what the current day of the week is.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination day assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE day orientation assay</obo:IAO_0000118>
@@ -947,7 +891,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -960,6 +904,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation assay in which the evaluant is instructed to verbally identify what the current season of the year is.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination season assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE season orientation assay</obo:IAO_0000118>
@@ -972,7 +917,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -985,6 +930,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation assay in which the evaluant is instructed to verbally identify the building they are currently in.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination building assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE building orientation assay</obo:IAO_0000118>
@@ -997,7 +943,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1010,6 +956,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation assay in which the evaluant is instructed to verbally identify the floor of the building they are currently on.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination floor assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE floor orientation assay</obo:IAO_0000118>
@@ -1022,7 +969,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1035,6 +982,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation assay in which the evaluant is instructed to verbally identify the city they are currently in.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination city assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE city orientation assay</obo:IAO_0000118>
@@ -1048,7 +996,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1061,6 +1009,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation assay in which the evaluant is instructed to verbally identify the county they are currently in.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination county assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE county orientation assay</obo:IAO_0000118>
@@ -1073,7 +1022,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1086,6 +1035,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation assay in which the evaluant is instructed to verbally identify the state they are currently in.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination state assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE state orientation assay</obo:IAO_0000118>
@@ -1111,6 +1061,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A cognitive functioning assay that is part of a Folstein mini mental state examination assay and in which the evaluator verbally states a list of words then instructs the evaluant to recall and verablize each of thosee words.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination immediate recall assay</obo:IAO_0000118>
         <obo:IAO_0000118>mini mental state examination immediate recall assay</obo:IAO_0000118>
@@ -1123,20 +1074,6 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010001"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010016"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1155,6 +1092,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A cognitive functioning assay that is part of a Folstein mini mental state examination assay and which is designed to assess the evaluant&apos;s capacities for attention and calculation.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination attention and calculation assay</obo:IAO_0000118>
         <obo:IAO_0000118>mini mental state examination attention and calculation assay</obo:IAO_0000118>
@@ -1166,13 +1104,14 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE attention and calculation assay in which the evaluant is instructed to verbally spell out the word &apos;world&apos; backwards.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination world assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE &apos;world&apos; assay</obo:IAO_0000118>
@@ -1206,12 +1145,10 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115>TO DO</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A cognitive functioning assay that is part of a Folstein mini mental state examination assay and in which the evaluator instructs the evaluant to recall and verablize each word from the list of words that were previously presented during the MMSE immediate recall assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination recall assay</obo:IAO_0000118>
         <obo:IAO_0000118>mini mental state examination recall assay</obo:IAO_0000118>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>MMSE recall assay</rdfs:label>
     </owl:Class>
     
@@ -1224,42 +1161,6 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010020"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010021"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010022"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010023"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010024"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0010031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1269,10 +1170,11 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A cognitive functioning assay that is part of a Folstein mini mental state examination assay and which is designed to assess the evaluant&apos;s capacities for language use and comprehension.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination language assay</obo:IAO_0000118>
         <obo:IAO_0000118>mini mental state examination language assay</obo:IAO_0000118>
-        <rdfs:comment>NOTE: The copying assay is not an assessment of linguistic functions.  It is an assay of the visual/spatial function instead.</rdfs:comment>
+        <rdfs:comment xml:lang="en">NOTE: The copying assay is more properly an assessment of visual/spatial functions than of linguistic functions.</rdfs:comment>
         <rdfs:label>MMSE language assay</rdfs:label>
     </owl:Class>
     
@@ -1281,7 +1183,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1294,6 +1196,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language assay in which the evaluant is instructed to verbally identify one or more indicated objects.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination naming assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE naming language assay</obo:IAO_0000118>
@@ -1306,7 +1209,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1319,6 +1222,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language assay in which the evaluant is instructed to repeat a phrase spoken by the examiner.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination repetition assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE repetition language assay</obo:IAO_0000118>
@@ -1331,7 +1235,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1344,6 +1248,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language assay in which the evaluant is verbally instructed to complete three tasks in the indicated order.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination three stage command assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE 3 stage command assay</obo:IAO_0000118>
@@ -1360,7 +1265,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1373,6 +1278,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language assay in which the evaluant is instructed to read a written instruction and then perform that task.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination reading assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE reading language assay</obo:IAO_0000118>
@@ -1385,7 +1291,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1398,6 +1304,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language assay in which the evaluant is instructed to write a sentence.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination writing assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE writing language assay</obo:IAO_0000118>
@@ -1410,7 +1317,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
     <!-- http://purl.obolibrary.org/obo/NPT_0010024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0010024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1423,6 +1330,7 @@ Revise the specified output(s) once the measurment datum classes are revised.</r
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language assay in which the evaluant is verbally instructed to draw a copy of the indicated figure.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000118>Folstein mini mental state examination copying assay</obo:IAO_0000118>
         <obo:IAO_0000118>MMSE copying language assay</obo:IAO_0000118>
@@ -2700,7 +2608,6 @@ http://purl.obolibrary.org/obo/MF_0000020</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>An ADNI ADAS word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;axe&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS word recognition axe assay</rdfs:label>
     </owl:Class>
     
@@ -2809,7 +2716,6 @@ http://purl.obolibrary.org/obo/MF_0000020</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>An ADNI ADAS word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;anchor&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS word recognition anchor assay</rdfs:label>
     </owl:Class>
     
@@ -3130,7 +3036,7 @@ Previous Note: Determine whether this is the specified output of a Folstein MMSE
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0012026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the output of a single sub-assay of an admisitered Folstein mini mental state examination and is about some cognitive functioning.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the output of a single sub-assay of an administered Folstein mini mental state examination and is about some cognitive functioning.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Folstein mini mental state examination cognitive functioning scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3715,8 +3621,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE date assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation scalar measurement datum that is the output of a MMSE date assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE date scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3726,8 +3632,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE year assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation scalar measurement datum that is the output of a MMSE year assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE year scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3737,8 +3643,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE month assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation scalar measurement datum that is the output of a MMSE month assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE month scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3748,8 +3654,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE day assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation scalar measurement datum that is the output of a MMSE day assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE day scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3759,8 +3665,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE season assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation scalar measurement datum that is the output of a MMSE season assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE season scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3770,8 +3676,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE building assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation scalar measurement datum that is the output of a MMSE building assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE building scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3781,8 +3687,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE floor assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation scalar measurement datum that is the output of a MMSE floor assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE floor scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3792,8 +3698,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE city assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation scalar measurement datum that is the output of a MMSE city assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE city scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3803,8 +3709,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE county assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation scalar measurement datum that is the output of a MMSE county assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE county scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3814,8 +3720,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE state assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022013"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE orientation scalar measurement datum that is the output of a MMSE state assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE state scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3826,7 +3732,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022002"/>
-        <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall ball assay.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall assay in which the test subject is supposed to remember the word &apos;ball&apos;.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE immediate recall ball scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3837,7 +3743,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022002"/>
-        <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall flag assay.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall assay in which the test subject is supposed to remember the word &apos;flag&apos;.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE immediate recall flag scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3848,7 +3754,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022002"/>
-        <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall tree assay.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall assay in which the test subject is supposed to remember the word &apos;tree&apos;.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE immediate recall tree scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3858,10 +3764,10 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022002"/>
-        <obo:IAO_0000115 xml:lang="en">An MMSE immediate recall scalar measurement datum that is the output of a MMSE immediate recall number of trials assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that records the number of times a given cognitive assay was presented to a test subject to attempt during an examination.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">MMSE immediate recall number of trials scalar measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">number of cognitive assay trials scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3870,9 +3776,9 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022003"/>
-        <obo:IAO_0000115 xml:lang="en">An MMSE recall scalar measurement datum that is the output of a MMSE recall ball assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE recall ball scalar measurement datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A MMSE recall scalar measurement datum that is the output of a MMSE recall assay in which the test subject is supposed to remember the word &apos;ball&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE recall ball scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3881,9 +3787,9 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022003"/>
-        <obo:IAO_0000115 xml:lang="en">An MMSE recall scalar measurement datum that is the output of a MMSE recall flag assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE recall flag scalar measurement datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A MMSE recall scalar measurement datum that is the output of a MMSE recall assay in which the test subject is supposed to remember the word &apos;flag&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE recall flag scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3892,9 +3798,9 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022003"/>
-        <obo:IAO_0000115 xml:lang="en">An MMSE recall scalar measurement datum that is the output of a MMSE recall tree assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE recall tree scalar measurement datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A MMSE recall scalar measurement datum that is the output of a MMSE recall assay in which the test subject is supposed to remember the word &apos;tree&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE recall tree scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3902,8 +3808,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE naming assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language scalar measurement datum that is the output of a MMSE naming assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE naming scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3914,8 +3820,9 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011058"/>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE naming watch scalar measurement datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A MMSE naming scalar measurement datum that is the output of a MMSE naming assay in which the test subject is supposed to identify a watch by name.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE naming watch scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3924,8 +3831,9 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011058"/>
-        <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
-        <rdfs:label>MMSE naming pencil scalar measurement datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A MMSE naming scalar measurement datum that is the output of a MMSE naming assay in which the test subject is supposed to identify a pencil by name.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE naming pencil scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -3933,8 +3841,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE repetition assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language scalar measurement datum that is the output of a MMSE repetition assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE repetition scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3944,8 +3852,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language scalar measurement datum that is the output of a MMSE three stage command assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE three stage command scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3955,7 +3863,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011062"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command takes assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE three stage command takes scalar measurement datum</rdfs:label>
@@ -3966,7 +3874,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011062"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command folds assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE three stage command folds scalar measurement datum</rdfs:label>
@@ -3977,7 +3885,7 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011062"/>
         <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE three stage command puts assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE three stage command puts scalar measurement datum</rdfs:label>
@@ -3988,8 +3896,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011066">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE reading assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language scalar measurement datum that is the output of a MMSE reading assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE reading scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -3999,8 +3907,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE writing assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language scalar measurement datum that is the output of a MMSE writing assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE writing scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -4010,8 +3918,8 @@ A cognitive functioning assay design that generates a Folstein mini mental exami
     <!-- http://purl.obolibrary.org/obo/NPT_0011068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
-        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE copying assay.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0022014"/>
+        <obo:IAO_0000115 xml:lang="en">A MMSE language scalar measurement datum that is the output of a MMSE copying assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE copying scalar measurement datum</rdfs:label>
     </owl:Class>
@@ -6803,7 +6711,6 @@ Alexander P. Cox</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS commands assay</rdfs:label>
     </owl:Class>
     
@@ -6816,7 +6723,6 @@ Alexander P. Cox</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS commands fist assay</rdfs:label>
     </owl:Class>
     
@@ -6829,7 +6735,6 @@ Alexander P. Cox</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS commands pencil assay</rdfs:label>
     </owl:Class>
     
@@ -6840,6 +6745,7 @@ Alexander P. Cox</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0020062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS commands point assay</rdfs:label>
     </owl:Class>
@@ -6851,6 +6757,7 @@ Alexander P. Cox</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0020063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS commands watch assay</rdfs:label>
     </owl:Class>
@@ -6862,6 +6769,7 @@ Alexander P. Cox</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0020064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS commands tap assay</rdfs:label>
     </owl:Class>
@@ -6879,6 +6787,7 @@ Alexander P. Cox</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS comphrension assay</rdfs:label>
     </owl:Class>
@@ -6910,7 +6819,6 @@ Alexander P. Cox</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS constructional praxis assay</rdfs:label>
     </owl:Class>
     
@@ -6939,6 +6847,7 @@ Alexander P. Cox</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000116>One trial, ten words, ability to perform, total score, and actual words recorded. </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS delayed word recall task assay</rdfs:label>
@@ -6975,6 +6884,7 @@ Alexander P. Cox</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000116>Five yes/no answers, all same field. Ability recorded. </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS ideational praxis assay</rdfs:label>
@@ -6995,7 +6905,6 @@ Alexander P. Cox</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS test instructions assay</rdfs:label>
     </owl:Class>
     
@@ -7030,6 +6939,7 @@ Alexander P. Cox</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000116>Seventeen possible yes/no responses, A naming and B is fingers, all same field. Ability recorded. </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS naming objects fingers assay</rdfs:label>
@@ -7062,7 +6972,6 @@ Alexander P. Cox</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS number cancellation assay</rdfs:label>
     </owl:Class>
     
@@ -7094,7 +7003,6 @@ Alexander P. Cox</obo:IAO_0000116>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000116>Eight yes/no answers, same field. Ability recorded. </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS orientation assay</rdfs:label>
     </owl:Class>
     
@@ -7111,6 +7019,7 @@ Alexander P. Cox</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS spoken language ability assay</rdfs:label>
     </owl:Class>
@@ -7128,6 +7037,7 @@ Alexander P. Cox</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS word finding difficulty assay</rdfs:label>
     </owl:Class>
@@ -7178,7 +7088,6 @@ Do we need to represnt this?
 A data transformation.</obo:IAO_0000116>
         <obo:IAO_0000116>Tester shows ten words one at a time to evaluant. Evaluant repeats words. Tester instructs evaluant to recall words. Tester indicates if recall is sucessful. Three trials.</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS word recall task assay</rdfs:label>
     </owl:Class>
     
@@ -7203,7 +7112,6 @@ A data transformation.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS word recall task trial one</rdfs:label>
     </owl:Class>
     
@@ -7226,6 +7134,7 @@ A data transformation.</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS word recall task trial three</rdfs:label>
     </owl:Class>
@@ -7249,6 +7158,7 @@ A data transformation.</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <rdfs:label>ADNI ADAS word recall task trial two</rdfs:label>
     </owl:Class>
@@ -7283,7 +7193,6 @@ Immediately after the last word is read aloud, the examiner says: “Now I’m g
 Word Recognition Task Scoring: On the CRF, the examiner should check the “yes” or “no” response made by the subject for each of the target and distractor items.&quot;</obo:IAO_0000116>
         <obo:IAO_0000117>Alexander P. Cox</obo:IAO_0000117>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS word recognition assay</rdfs:label>
     </owl:Class>
     
@@ -7646,7 +7555,6 @@ Q2TASK: 1,2,3,4,5 &amp; Q2SCORE: 0-5
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI clock drawing assay</rdfs:label>
     </owl:Class>
     
@@ -7665,7 +7573,6 @@ Q2TASK: 1,2,3,4,5 &amp; Q2SCORE: 0-5
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI clock copying assay</rdfs:label>
     </owl:Class>
     
@@ -7734,7 +7641,6 @@ CLOCKSCOR: 0-5</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 AVTOT1: 0-15</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial one scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7749,7 +7655,6 @@ AVTOT1: 0-15</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 AVTOT2: 0-15</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial two scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7764,7 +7669,6 @@ AVTOT2: 0-15</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 AVTOT3: 0-15</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial three scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7779,7 +7683,6 @@ AVTOT3: 0-15</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 AVTOT4: 0-15</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial four scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7794,7 +7697,6 @@ AVTOT4: 0-15</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 AVTOT5: 0-15</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial five scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7809,7 +7711,6 @@ AVTOT5: 0-15</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 AVTOT6: 0-15</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial six scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7824,7 +7725,6 @@ AVTOT6: 0-15</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 AVTOTB: 0-15</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial list B scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7887,7 +7787,6 @@ AVTOTB: 0-15</obo:IAO_0000116>
         <obo:IAO_0000116>Is the 30 minute delay a part of this assay?</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000118>ADNI AVLT version A</obo:IAO_0000118>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI auditory verbal learning test version A assay</rdfs:label>
     </owl:Class>
     
@@ -7915,7 +7814,6 @@ AVTOTB: 0-15</obo:IAO_0000116>
 learning trials, to recall the words immediately after an intervening interference list, and to recall
 and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial one assay</rdfs:label>
     </owl:Class>
     
@@ -7940,7 +7838,6 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial two assay</rdfs:label>
     </owl:Class>
     
@@ -7965,7 +7862,6 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial three assay</rdfs:label>
     </owl:Class>
     
@@ -7990,7 +7886,6 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial four assay</rdfs:label>
     </owl:Class>
     
@@ -8015,7 +7910,6 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial five assay</rdfs:label>
     </owl:Class>
     
@@ -8040,7 +7934,6 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial list B assay</rdfs:label>
     </owl:Class>
     
@@ -8065,7 +7958,6 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT trial six assay</rdfs:label>
     </owl:Class>
     
@@ -8090,7 +7982,6 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI digit span forward assay</rdfs:label>
     </owl:Class>
     
@@ -8115,7 +8006,6 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI digit span backward assay</rdfs:label>
     </owl:Class>
     
@@ -8130,7 +8020,6 @@ and recognize the words after a 30-minute delay interval.</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 DSPANFOR: 0-12</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI digit span forward total scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8141,13 +8030,10 @@ DSPANFOR: 0-12</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0020127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115>A scalar measurement datum which is one of two specified outputs of a digit span forward assay, 3-8 inclusive, maximum length of correct recall.
-
-???????</obo:IAO_0000115>
+        <obo:IAO_0000115>A scalar measurement datum which is one of two specified outputs of a digit span forward assay, 3-8 inclusive, maximum length of correct recall.</obo:IAO_0000115>
         <obo:IAO_0000116>ADNI 1-
 DSPANFLTH: 3-8</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI digit span forward length scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8162,7 +8048,6 @@ DSPANFLTH: 3-8</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 DSPANBAC: 0-12</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI digit span backward total scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8173,13 +8058,10 @@ DSPANBAC: 0-12</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0020129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115>A scalar measurement datum which is one of two specified outputs of a digit span backward assay, 3-8 inclusive, maximum length of correct recall.
-
-???????</obo:IAO_0000115>
+        <obo:IAO_0000115>A scalar measurement datum which is one of two specified outputs of a digit span backward assay, 3-8 inclusive, maximum length of correct recall.</obo:IAO_0000115>
         <obo:IAO_0000116>ADNI 1-
 DSPANBLTH: 2-7</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI digit span backward length scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8226,7 +8108,6 @@ DSPANBLTH: 2-7</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI category fluency test animal assay</rdfs:label>
     </owl:Class>
     
@@ -8257,7 +8138,6 @@ DSPANBLTH: 2-7</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI category fluency test vegtable assay</rdfs:label>
     </owl:Class>
     
@@ -8272,7 +8152,6 @@ DSPANBLTH: 2-7</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 CATANIMSC: 0-77</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI category fluency animal total scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8287,7 +8166,6 @@ CATANIMSC: 0-77</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 CATANINTR: 0-77</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI category fluency animal intrusion scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8302,7 +8180,6 @@ CATANINTR: 0-77</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 CATANPERS: 0-77</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI category fluency animal perservations scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8317,7 +8194,6 @@ CATANPERS: 0-77</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 CATVEGESC: 0-77</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI category fluency vegtable total scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8332,7 +8208,6 @@ CATVEGESC: 0-77</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 CATVGINTR: 0-77</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI category fluency vegtable intrusion scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8347,7 +8222,6 @@ CATVGINTR: 0-77</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 CATVGPERS: 0-77</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI category fluency vegtable perservations scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8377,7 +8251,6 @@ CATVGPERS: 0-77</obo:IAO_0000116>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An assay which is a realization of the plan which concretizes the trail making test design. A evaluant is asked to draw a line between consecutive numbers and scored on total time to complete, numbers of comissions and omissions. </obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <obo:IAO_0000232 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <rdfs:label>ADNI trail making test A assay</rdfs:label>
     </owl:Class>
@@ -8393,7 +8266,6 @@ CATVGPERS: 0-77</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 TRAASCOR or TRABSCOR:</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI trail making test time scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8408,7 +8280,6 @@ TRAASCOR or TRABSCOR:</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 TRAAERRCOM or TRABERRCOM: </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI trail making test comission scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8423,7 +8294,6 @@ TRAAERRCOM or TRABERRCOM: </obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1:
 TRAAERROM or TRABERROM:</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI trail making test omission scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8454,7 +8324,6 @@ TRAAERROM or TRABERROM:</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>An assay which is a realization of the plan which concretizes the trail making test design. A evaluant is asked to draw a line between consecutive numbers and scored on total time to complete, numbers of comissions and omissions. </obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI trail making test B assay</rdfs:label>
     </owl:Class>
     
@@ -8473,7 +8342,6 @@ TRAAERROM or TRABERROM:</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>An assay which is a realization of the plan which concretizes the WAISR digit symbol substitution test design. A evaluant is asked to draw symbols in numbered boxes according to a key and scored on total correct responses.</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI WAISR digit symbol substitution test assay</rdfs:label>
     </owl:Class>
     
@@ -8488,7 +8356,6 @@ TRAAERROM or TRABERROM:</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 DIGITSCOR: </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI WAISR digit symbol substitution total scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8566,7 +8433,6 @@ Downloded from: http://adni-info.org/Scientists/ProceduresManuals.aspx#</obo:IAO
         <obo:IAO_0000116>ADNI 1-
 BNTSPONT: 0-30</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI boston naming correct without cue</rdfs:label>
     </owl:Class>
     
@@ -8581,7 +8447,6 @@ BNTSPONT: 0-30</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 BNTSTIM: 0-30</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI boston naming number semantic cues</rdfs:label>
     </owl:Class>
     
@@ -8596,7 +8461,6 @@ BNTSTIM: 0-30</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 BNTPHON: 0-30</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI boston naming number phonemic cues</rdfs:label>
     </owl:Class>
     
@@ -8611,7 +8475,6 @@ BNTPHON: 0-30</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 BNTCSTIM: 0-30</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI boston naming total correct with semantic cue</rdfs:label>
     </owl:Class>
     
@@ -8626,7 +8489,6 @@ BNTCSTIM: 0-30</obo:IAO_0000116>
         <obo:IAO_0000116>ADNI 1-
 BNTCPHON: 0-30</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI boston naming total correct with phonemic cue</rdfs:label>
     </owl:Class>
     
@@ -8669,7 +8531,6 @@ BNTTOTAL:</obo:IAO_0000116>
 
 Is this a part of the main AVLT assay, despite being delayed?</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT thirty minute delay assay</rdfs:label>
     </owl:Class>
     
@@ -8702,7 +8563,6 @@ AVDEL30MIN: 0-15</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI american national adult reading test assay</rdfs:label>
     </owl:Class>
     
@@ -8716,7 +8576,6 @@ AVDEL30MIN: 0-15</obo:IAO_0000116>
         <obo:IAO_0000115>TO DO</obo:IAO_0000115>
         <obo:IAO_0000116>ADNI1 field name: ANARTERR</obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI american national adult reading test assay scalar measuremnent datum</rdfs:label>
     </owl:Class>
     
@@ -8737,7 +8596,6 @@ Q11: 0-5
 ADNI GO/2-
 </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS word finding difficulty measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8758,7 +8616,6 @@ Q10: 0-5
 ADNI GO/2-
 </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS spoken language ability measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8799,7 +8656,6 @@ ADASSCORES-
 ADNI GO/2-
 </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS number cancellation targets measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8819,7 +8675,6 @@ ADASSCORES-
 ADNI GO/2-
 </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS number cancellation errors measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8839,7 +8694,6 @@ ADASSCORES-
 ADNI GO/2-
 </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS number cancellation reminderrs measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8923,7 +8777,6 @@ ADASSCORES-
 ADNI GO/2-
 </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI AVLT total intrusions scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8944,7 +8797,6 @@ Q12: 0-5
 ADNI GO/2-
 </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS comprehension assay scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8965,7 +8817,6 @@ Q9: 0-5
 ADNI GO/2-
 </obo:IAO_0000116>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <rdfs:label>ADNI ADAS test instructions assay scalar measurement datum</rdfs:label>
     </owl:Class>
     
@@ -9154,6 +9005,28 @@ Q1TR3: 0,1,2,3,4,5,6,7,8,9,10
         <obo:IAO_0000115 xml:lang="en">An MMSE attention and calculation scalar measurement datum that is the fifth output of an MMSE attention and calculation assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
         <rdfs:label xml:lang="en">MMSE attention and calculation fifth item scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE orientation assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE orientation scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_0022014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0022014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0011005"/>
+        <obo:IAO_0000115 xml:lang="en">A Folstein mini mental state examination cognitive functioning scalar measurement datum that is the output of a MMSE language assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MMSE language scalar measurement datum</rdfs:label>
     </owl:Class>
     
 
