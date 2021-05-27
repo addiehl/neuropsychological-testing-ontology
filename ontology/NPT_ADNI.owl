@@ -1,0 +1,564 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/NPT_ADNI.owl#"
+     xml:base="http://purl.obolibrary.org/obo/NPT_ADNI.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/NPT/2021-05-27/NPT_ADNI.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/NPT.owl"/>
+        <obo:IAO_0000118 xml:lang="en">NPT ADNI</obo:IAO_0000118>
+        <dc:contributor xml:lang="en">Alexander D. Diehl</dc:contributor>
+        <dc:contributor xml:lang="en">Alexander P. Cox</dc:contributor>
+        <dc:contributor xml:lang="en">Mark Jensen</dc:contributor>
+        <dc:description xml:lang="en">The NeuroPsychological Testing Ontology for Alzheimers Disease Neuroimaging Initiative Data is designed to extend NPT to represent ADNI-specific cognitive tests and associated data.</dc:description>
+        <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
+        <rdfs:label xml:lang="en">NeuroPsychological Testing Ontology for Alzheimers Disease Neuroimaging Initiative Data</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May 27, 2021</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 0.1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;nurse&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition nurse assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;magazine&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition magazine assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;wizard&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition wizard assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;van&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition van assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;leopard&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition leopard assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;sale&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition sale assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;sea&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition sea assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;train&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition train assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;coin&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition coin assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;ship&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition ship assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;institution&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition institution assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;map&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition map assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;axe&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition axe assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;board&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition board assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;carrot&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition carrot assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;milk&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition milk assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;volume&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition volume assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;edge&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition forest assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;anchor&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition anchor assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;gem&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition gem assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;cat&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition cat assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;fund&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition fund assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;edge&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition edge assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0010105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0010105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPT_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An ADNI ADAS-COG word recognition assay that involves prompting the study participant to respond with a &quot;yes&quot; or &quot;no&quot; to indicate whether he or she recognizes the word &apos;cake&apos; as having been among the list of 12 words that the participant was asked to remember at the begining of the ADNI ADAS-COG assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ADNI ADAS-COG word recognition cake assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0020029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0020029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mark Jensen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MoCA naming rhino assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0020030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0020030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mark Jensen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MoCA naming lion assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0020031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0020031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mark Jensen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MoCA naming camel assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0020046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0020046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mark Jensen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MoCA delayed recall church assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0020047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0020047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mark Jensen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MoCA delayed recall daisy assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0020048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0020048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mark Jensen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MoCA delayed recall face assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0020049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0020049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mark Jensen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MoCA delayed recall red assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPT_ADNI_0020050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_ADNI_0020050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mark Jensen</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MoCA delayed recall velvet assay</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
